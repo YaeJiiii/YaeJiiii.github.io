@@ -1,10 +1,10 @@
 ---
 layout: default
-title: About YaeJi Kim
+title: About
 ---
 
 <div class="post">
-	<h1 class="pageTitle">About Long Haul</h1>
+	<h1 class="pageTitle">About Me</h1>
 	<img src="{{ '/assets/img/profile.jpg' }}" alt="">
 	<p class="intro">Let Me Introduce Myself.</p>
 	<p>Welcome to YaeJi's blog. This is my profile. Enjoy Watching! </p>
