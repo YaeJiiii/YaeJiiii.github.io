@@ -1,4 +1,4 @@
-title: Long Haul
+title: YaeJi's BLOG!
 description: Long Form Jekyll theme built with SASS / COMPASS / SUSY
 
 url: https://long-haul.netlify.app
@@ -25,10 +25,9 @@ social:
   github: brianmaierjr
   twitter: brianmaierjr
   facebook: brianmaierjr
-  email: brimaidesigns@gmail.com
-  linkedin: brianmaierjr
+  email: jyhannakim@kookmin.ac.kr
 
 google_analytics: "UA-58263416-1"
 
 disqus:
-    shortname: brianmaierjr
+    shortname: KimYaeJi

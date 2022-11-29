@@ -3,6 +3,7 @@ layout: post
 title:  "Git&Github, Jekyll, Markdown에 대하여"
 date:   2022-11-29 21:11:29 +0900
 categories: jekyll update
+comment: true
 ---
 ## Git이란 무엇일까?
 
