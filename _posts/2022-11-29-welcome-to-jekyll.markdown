@@ -1,28 +1,39 @@
 ---
 layout: post
-title:  "Welcome to Jekyll!"
+title:  "Git&Github, Jekyll, Markdown에 대하여"
 date:   2022-11-29 21:11:29 +0900
 categories: jekyll update
 ---
-You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated.
+## Git이란 무엇일까?
 
-Jekyll requires blog post files to be named according to the following format:
+- 가장 일반적으로 사용되는 버전 관리 시스템(version control system)
+- 협업을 통해 여러 변경사항을 하나의 소스로 병합 가능
+- 로컬로 실행되는 소프트웨어
+- 저장소에서 모든 프로젝트 파일과 전체 수정 기록이 포함
+- Staging과 Commit을 진행함으로서 버전관리를 수행
 
-`YEAR-MONTH-DAY-title.MARKUP`
+## Github는 무엇일까?
 
-Where `YEAR` is a four-digit number, `MONTH` and `DAY` are both two-digit numbers, and `MARKUP` is the file extension representing the format used in the file. After that, include the necessary front matter. Take a look at the source for this post to get an idea about how it works.
+- 원격 저장소를 호스팅 하는 플랫폼
+- 개발자들이 공개적으로 네트워크 연결, 협업 및 작업 피칭을 할 수 있는 소셜 네트워킹 사이트
+- 장점: 협업 효율화, 쉬운 파일 관리, 엔지니어들의 SNS
 
-Jekyll also offers powerful support for code snippets:
+## Git과 Github의 차이점은 무엇일까?
+- 깃은 로컬 파일의 변경사항을 기록하고 해당 파일에 대한 여러 사용자 간의 작을 조율하기 위한 버전관리 시스템
+- 깃허브는 깃을 클라우드 방식으로 구현된 버전 관리 시스템
 
-{% highlight ruby %}
-def print_hi(name)
-  puts "Hi, #{name}"
-end
-print_hi('Tom')
-#=> prints 'Hi, Tom' to STDOUT.
-{% endhighlight %}
+- 쉬운 비유로 깃 = '커피' 깃허브 = '커피샵'이라고 할 수 있다. 
 
-Check out the [Jekyll docs][jekyll-docs] for more info on how to get the most out of Jekyll. File all bugs/feature requests at [Jekyll’s GitHub repo][jekyll-gh]. If you have questions, you can ask them on [Jekyll Talk][jekyll-talk].
+## Jekyll 이란 무엇일까?
+
+- 개인, 프로젝트, 조직 사이트를 위한 간단한 정적 사이트 생성기
+- HTML & Javascript, Markdown으로 만들 수 있다.
+
+## Markdown 이란 무엇일까?
+
+- 텍스트를 통해 문서의 형태로 명시하는 방법
+- 웹사이트, 문서, 노트, 책, ppt 등 기술 문서를 만드는데 사용
+- 모든 장치에서 마크다운 형식의 텍스트를 만들 수 있음
 
 [jekyll-docs]: https://jekyllrb.com/docs/home
 [jekyll-gh]:   https://github.com/jekyll/jekyll
