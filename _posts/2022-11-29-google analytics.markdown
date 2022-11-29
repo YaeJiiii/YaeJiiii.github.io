@@ -1,11 +1,11 @@
 ---
 layout: post
-title:  "Google Analytics를 추가해보자!"
+title:  "Google Analytics추가"
 date:   2022-11-29 21:11:29 +0900
 categories: jekyll update
 comment: true
 ---
-## Google Analytics 추가하는 방법 안내
+## Google Analytics 추가
 
 ## 계정이 없다면?
 
