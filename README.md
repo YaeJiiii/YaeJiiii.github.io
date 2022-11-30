@@ -126,13 +126,29 @@
 3. 사이트 정보 입력
 4. jekyll platform 선택
 5. [disqus universal Code](https://kimyaeji.disqus.com/admin/universalcode/) 접속 후 해당 코드 복사
+
 6. 
 ![comments](https://user-images.githubusercontent.com/105334974/204711569-6cd7d5e8-d34d-4666-bd9d-ebad20b25f26.JPG)
 - post창에 `comments: true` 추가
+
 7. 
 ![disqus](https://user-images.githubusercontent.com/105334974/204711834-4faef5e4-019b-4289-b5e1-74bf819fe777.JPG)
-코드 수정
+- 코드 수정
+
 8. 
 ![comment](https://user-images.githubusercontent.com/105334974/204712005-6810aa47-24c5-4ce7-886e-8f6bd3162962.JPG)
 
+### 그 외 추가 기능들
+1. [google analytics](https://yaejiiii.github.io/blog/google-analytics/)
+2. favion
+    - 마음에 드는 로고를 하나 고르기
+    - 코드 추가
+    ```c
+    <link> rel = "icon" type = "image/x-icon" href = "/assets/img/favicon.ico"/>
+    ```
+    - ![favicon](https://user-images.githubusercontent.com/105334974/204714307-78b247cb-1a1d-4099-817a-87d999203a68.JPG)
 
+## 나만의 블로그 완성!
+- [Welcome to YaeJi's Blog](https://yaejiiii.github.io/)
+
+## 읽어주셔서 감사합니다.
