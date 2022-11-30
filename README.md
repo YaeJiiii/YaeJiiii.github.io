@@ -120,4 +120,16 @@
 
 ## 나만의 블로그 만들기 (3) - comment 추가하기 및 그 외 기능들
 
+### Comment 추가
+1. [https://disqus.com/](https://disqus.com/)접속
+2. 회원가입 후 "i want to install Disqus on my site" 선택
+3. 사이트 정보 입력
+4. jekyll platform 선택
+5. [disqus universal Code](https://kimyaeji.disqus.com/admin/universalcode/) 접속 후 해당 코드 복사
+6. ![comments](https://user-images.githubusercontent.com/105334974/204711569-6cd7d5e8-d34d-4666-bd9d-ebad20b25f26.JPG)
+post창에 `comments: true` 추가
+7. ![disqus](https://user-images.githubusercontent.com/105334974/204711834-4faef5e4-019b-4289-b5e1-74bf819fe777.JPG)
+코드 수정
+8. ![comment](https://user-images.githubusercontent.com/105334974/204712005-6810aa47-24c5-4ce7-886e-8f6bd3162962.JPG)
+
 
