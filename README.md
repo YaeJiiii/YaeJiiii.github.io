@@ -12,7 +12,20 @@
     ```c
     git clone https://github.com/YaeJiiii/YaeJiiii.github.io.git
     ```
-- 
+- commit 확인해보기
+    "Hello world"라는 내용의 index.html을 작성한다.
+    
+     현재상태를 확인 후 변경파일을 추가해준다.
+    ```c
+    git status
+    ```
+    ```c
+    git add .
+    ```
+- git coomit -m "msg"로 커밋을 남긴다
+    ```c
+    git commit -m "add:index.html"
+    ```
 
 
 
