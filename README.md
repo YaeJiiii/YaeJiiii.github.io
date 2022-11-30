@@ -1,30 +1,24 @@
-![preview Long Haul](/preview.jpg)
+![preview YAEJI'S BLOG!](/blog-preview.jpg)
 
-Long Haul is a minimal jekyll theme built with SASS / GULP / BROWSERSYNC / AUTOPREFIXER and focuses on long form blog posts. It is meant to be used as a starting point for a jekyll blog/website.
+## My project Build Process
+약 한달에 걸쳐 git과 github 그리고 그 외 다양한 사이트와 기능들을 배우면서 최종적으로 나만의 git 블로그를 완성하였다. Git, Github, jekyll, markdown에 대한 자세한 내용은 블로그 [post](https://yaejiiii.github.io/blog/welcome-to-jekyll/)에서 확인할 수 있다.
 
-If you really enjoy Long Haul and want to give me credit somewhere on the internet send or tweet out your experience with Long Haul and tag me [@brianmaierjr](https://twitter.com/brianmaierjr).
+## Github 환경 구축하기
 
-#### [View Demo](http://brianmaierjr.com/long-haul)
+- Github 계정 생성과 Repository를 생성 (저장소 이름 :username.github.io)
+- Local -Remote Repository 와 연동
 
-[![Netlify Status](https://api.netlify.com/api/v1/badges/bd29f13b-3754-46d7-9a39-48db2e174b99/deploy-status)](https://app.netlify.com/sites/long-haul/deploys)
+저장소 Remote Repository의 주소를 복사하고 원하는 위치에서 터미널을 연다.
+```c
+git clone https://github.com/YaeJiiii/YaeJiiii.github.io.git
+```
 
-## Features
 
-- Minimal, Type Focused Design
-- Built with GULP + SASS + BROWSERSYNC + AUTOPREFIXER
-- SVG Social Icons
-- Responsive Nav Menu
-- XML Feed for RSS Readers
-- Contact Form via Formspree
-- 5 Post Loop with excerpt on Home Page
-- Previous / Next Post Navigation
-- Estimated Reading Time for posts
-- Stylish Drop Cap on posts
-- A Better Type Scale for all devices
-- Comments powered by Disqus
+
+
 - [Dark Mode support](https://github.com/brianmaierjr/long-haul/blob/master/preview-dark.png) via [prefers-color-scheme](https://developer.mozilla.org/en-US/docs/Web/CSS/@media/prefers-color-scheme) 
 
-## Setup
+## Jekyll 설치 및 확인
 
 1. [Install Jekyll](http://jekyllrb.com)
 2. Fork the [Long Haul repo](http://github.com/brianmaierjr/long-haul)
@@ -35,7 +29,7 @@ If you really enjoy Long Haul and want to give me credit somewhere on the intern
 7. Run Jekyll and watch files by running `bundle exec gulp`
 8. Customize and watch the magic happen!
 
-## Site Settings
+## 나만의 블로그 만들기 (1) - 기본테마
 
 The main settings can be found inside the `_config.yml` file:
 
@@ -55,6 +49,10 @@ If you'd like your header to be larger then you can use the option below in you 
 
 ![preview Long Haul](/preview-large.png)
 
-## License
-
+## 나만의 블로그 만들기 (2) - 테마 입히기
 This is [MIT](LICENSE) with no added caveats, so feel free to use this Jekyll theme on your site without linking back to me or using a disclaimer.
+
+
+## 나만의 블로그 만들기 (3) - comment 추가하기 및 그 외 기능들
+
+
