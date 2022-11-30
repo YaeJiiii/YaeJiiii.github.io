@@ -5,54 +5,90 @@
 
 ## Github 환경 구축하기
 
-- Github 계정과 Repository를 생성 (저장소 이름 :username.github.io)
-- Local -Remote Repository 와 연동
+- **Github 계정과 Repository를 생성** (저장소 이름 :username.github.io)
+- **Local -Remote Repository 와 연동**
 
     저장소 Remote Repository의 주소를 복사하고 원하는 위치에서 터미널을 연다.
     ```c
     git clone https://github.com/YaeJiiii/YaeJiiii.github.io.git
     ```
-- commit 확인해보기
-    "Hello world"라는 내용의 index.html을 작성한다.
-    
-     현재상태를 확인 후 변경파일을 추가해준다.
+- **commit 확인**
+    "Hello world"라는 내용의 index.html을 작성 및 현재상태를 확인 후 변경파일을 추가해준다.
     ```c
     git status
     ```
     ```c
     git add .
     ```
-- git coomit -m "msg"로 커밋을 남긴다
+    git commit -m "msg"로 커밋을 남긴다
     ```c
     git commit -m "add:index.html"
     ```
 
+- **git push**
+    git push로 원격저장소에 반영한다
+    ```c
+    git branch -M main
+    ```
+    ```c
+    git push origin main
+    ```
 
-
-- [Dark Mode support](https://github.com/brianmaierjr/long-haul/blob/master/preview-dark.png) via [prefers-color-scheme](https://developer.mozilla.org/en-US/docs/Web/CSS/@media/prefers-color-scheme) 
+- **Github Page 설정 확인**
+    https://yaejiiii.github.io/로 접속해서 hello world가 잘 떠있는지 확인
+    
 
 ## Jekyll 설치 및 확인
 
-1. [Install Jekyll](http://jekyllrb.com)
-2. Fork the [Long Haul repo](http://github.com/brianmaierjr/long-haul)
-3. Clone it
-4. [Install Bundler](http://bundler.io/)
-5. Run `bundle install`
-6. Install gulp dependencies by running `npm install`
-7. Run Jekyll and watch files by running `bundle exec gulp`
-8. Customize and watch the magic happen!
+- **Jekyll 환경구성**
+    [Install Ruby + Devkit](https://rubyinstaller.org/downloads/)
+    [Install Jekyll](http://jekyllrb.com)
+
+    ```c
+    gem install jekyll bundler
+    ```
+
+- **설치 확인**
+    해당 폴더로 들어가서 Jekyll이 잘 설치되어있는지 확인
+    되어있다면 버전이 출력될 것
+    ```c
+    jekyll -v
+    ```
+- **현재디렉토리 Jekyll 설치**
+    ```c
+    jekyll new . --force
+    ```
+    ```c
+    ls
+    ```
+    ```c
+    bundle exec jekyll serve
+    ```
+- **From Local to Remote**
+    ```c
+    git rm index.html
+    ```
+    ```c
+    git add .
+    ```
+    ```c
+    git commit -m "msg"
+    ```
+    ```c
+    git push origin main
+    ```
+
+- **참고사항**
+    [Install Bundler](http://bundler.io/)
+    Run `bundle install`
+    Install gulp dependencies by running `npm install`
+    Run Jekyll and watch files by running `bundle exec gulp`
+    Customize and watch the magic happen!
 
 ## 나만의 블로그 만들기 (1) - 기본테마
 
-The main settings can be found inside the `_config.yml` file:
-
-- **title:** title of your site
-- **description:** description of your site
-- **url:** your url
-- **paginate:** the amount of posts displayed on homepage
-- **navigation:** these are the links in the main site navigation
-- **social** diverse social media usernames (optional)
-- **google_analytics** Google Analytics key (optional)
+- [사이트1](http://jekyllthemes.org/)과 [사이트2](https://jekyllthemes.io/free)에서 마음에 드는 테마 고르기
+    [내가 고른 테마](https://jekyllthemes.io/theme/long-haul)
 
 ### Header Option
 
