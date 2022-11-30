@@ -8,10 +8,10 @@
 - Github 계정 생성과 Repository를 생성 (저장소 이름 :username.github.io)
 - Local -Remote Repository 와 연동
 
-저장소 Remote Repository의 주소를 복사하고 원하는 위치에서 터미널을 연다.
-```c
-git clone https://github.com/YaeJiiii/YaeJiiii.github.io.git
-```
+    저장소 Remote Repository의 주소를 복사하고 원하는 위치에서 터미널을 연다.
+    ```c
+    git clone https://github.com/YaeJiiii/YaeJiiii.github.io.git
+    ```
 
 
 
