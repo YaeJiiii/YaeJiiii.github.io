@@ -1,18 +1,18 @@
-![preview YAEJI'S BLOG!](/blog-preview.jpg)
+![blog-preview](https://user-images.githubusercontent.com/105334974/204706833-933081cd-e277-4f2f-a7bb-145f618e2a82.JPG)
 
 ## My project Build Process
 약 한달에 걸쳐 git과 github 그리고 그 외 다양한 사이트와 기능들을 배우면서 최종적으로 나만의 git 블로그를 완성하였다. Git, Github, jekyll, markdown에 대한 자세한 내용은 블로그 [post](https://yaejiiii.github.io/blog/welcome-to-jekyll/)에서 확인할 수 있다.
 
 ## Github 환경 구축하기
 
-- Github 계정 생성과 Repository를 생성 (저장소 이름 :username.github.io)
+- Github 계정과 Repository를 생성 (저장소 이름 :username.github.io)
 - Local -Remote Repository 와 연동
 
     저장소 Remote Repository의 주소를 복사하고 원하는 위치에서 터미널을 연다.
     ```c
     git clone https://github.com/YaeJiiii/YaeJiiii.github.io.git
     ```
-
+- 
 
 
 
