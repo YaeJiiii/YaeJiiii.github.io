@@ -5,7 +5,8 @@
 
 ## Github 환경 구축하기
 
-- **Github 계정과 Repository를 생성** (저장소 이름 :username.github.io)
+- **Github 계정과 Repository를 생성** 
+    (저장소 이름 :username.github.io)
 - **Local -Remote Repository 와 연동**
 
     저장소 Remote Repository의 주소를 복사하고 원하는 위치에서 터미널을 연다.
@@ -13,7 +14,7 @@
     git clone https://github.com/YaeJiiii/YaeJiiii.github.io.git
     ```
 - **commit 확인**
-    "Hello world"라는 내용의 index.html을 작성 및 현재상태를 확인 후 변경파일을 추가해준다.
+    "Hello world"라는 내용의 `index.html`을 작성 및 현재상태를 확인 후 변경파일을 추가해준다.
     ```c
     git status
     ```
@@ -35,7 +36,7 @@
     ```
 
 - **Github Page 설정 확인**
-    https://yaejiiii.github.io/로 접속해서 hello world가 잘 떠있는지 확인
+    https://yaejiiii.github.io/로 접속해서 *hello world*가 잘 떠있는지 확인
     
 
 ## Jekyll 설치 및 확인
@@ -65,9 +66,48 @@
     bundle exec jekyll serve
     ```
 - **From Local to Remote**
+    내 깃허브 저장소로 commit하기
+    1. 우선 기존 hello world `index.html`삭제 
     ```c
     git rm index.html
     ```
+    2. 파일 추가
+    ```c
+    git add .
+    ```
+    3. 커밋메시지 남기기
+    ```c
+    git commit -m "msg"
+    ```
+    4. 원격저장소에 반영하기
+    ```c
+    git push origin main
+    ```
+
+- *참고사항*
+    - [Install Bundler](http://bundler.io/)
+    - Run `bundle install`
+    - Install gulp dependencies by running `npm install`
+    - Run Jekyll and watch files by running `bundle exec gulp`
+    - Customize and watch the magic happen!
+
+## 나만의 블로그 만들기 (1) - 테마입히기
+
+### 마음에 드는 테마 고르기
+- [사이트1](http://jekyllthemes.org/)과 [사이트2](https://jekyllthemes.io/free)
+- [내가 고른 테마](https://jekyllthemes.io/theme/long-haul)
+
+### 테마 적용하기
+
+- **git clone**
+    원하는 테마의 github 주소를 들어가 해당 주소를 복사
+    ```c
+    git clone (해당주소)
+    ```
+- **덮어쓰기**
+    테마 파일들을 파일 밖으로 덮어쓴다. 
+
+- **로컬저장소에 반영**
     ```c
     git add .
     ```
@@ -77,30 +117,6 @@
     ```c
     git push origin main
     ```
-
-- **참고사항**
-    [Install Bundler](http://bundler.io/)
-    Run `bundle install`
-    Install gulp dependencies by running `npm install`
-    Run Jekyll and watch files by running `bundle exec gulp`
-    Customize and watch the magic happen!
-
-## 나만의 블로그 만들기 (1) - 기본테마
-
-- [사이트1](http://jekyllthemes.org/)과 [사이트2](https://jekyllthemes.io/free)에서 마음에 드는 테마 고르기
-    [내가 고른 테마](https://jekyllthemes.io/theme/long-haul)
-
-### Header Option
-
-If you'd like your header to be larger then you can use the option below in you `config.yml` to make it take up half of the vertical space on screens 800px wide and up. *Preview image below.*
-
-- **header:** large
-
-![preview Long Haul](/preview-large.png)
-
-## 나만의 블로그 만들기 (2) - 테마 입히기
-This is [MIT](LICENSE) with no added caveats, so feel free to use this Jekyll theme on your site without linking back to me or using a disclaimer.
-
 
 ## 나만의 블로그 만들기 (3) - comment 추가하기 및 그 외 기능들
 
